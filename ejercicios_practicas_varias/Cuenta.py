@@ -37,10 +37,10 @@ class Cuenta:
         self._cantidad -= monto
         print(f"Has retirado: ${monto}. Saldo actual: ${self._cantidad}")
 
-from ejercicio1 import Persona
+#from Persona import Persona
 
-titular1 = Persona("Ana Perez", 67, "12897423")
-mi_cuenta = Cuenta(titular1, 120500.98)  
-mi_cuenta.mostrar_cuenta()
-mi_cuenta.ingresar(500)
-mi_cuenta.retirar(200100)
+#titular1 = Persona("Ana Perez", 67, "12897423")
+#mi_cuenta = Cuenta(titular1, 120500.98)  
+#mi_cuenta.mostrar_cuenta()
+#mi_cuenta.ingresar(500)
+#mi_cuenta.retirar(200100)

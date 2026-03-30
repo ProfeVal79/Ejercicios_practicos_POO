@@ -58,17 +58,17 @@ class Persona:
          return False
 
 #Instancias
-persona1 = Persona()
-resultado = persona1.mostrar()
-edad_mayor = persona1.es_mayor_de_edad()
-print(resultado)
-print(edad_mayor)
+#persona1 = Persona("Diego", 44, "28754983")
+#resultado = persona1.mostrar()
+#edad_mayor = persona1.es_mayor_de_edad()
+#print(resultado)
+#print(edad_mayor)
 
-persona1.set_nombre("Cristian")
-persona1.set_DNI("23457Q4")
+#persona1.set_nombre("Cristian")
+#persona1.set_DNI("23457Q4")
 
-resultado = persona1.mostrar()
-print(resultado)
+#resultado = persona1.mostrar()
+#print(resultado)
 
 
     

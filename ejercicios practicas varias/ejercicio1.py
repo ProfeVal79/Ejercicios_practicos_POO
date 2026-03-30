@@ -10,9 +10,12 @@
 
 class Persona:
     def __init__(self, nombre="", edad=None, DNI=""):
+#Usamos los métodos 'set' en el constructor para asegurar que
+# los datos iniciales también cumplan con las reglas de validación.      
         self.set_nombre(nombre)
         self.set_edad(edad)
         self.set_DNI(DNI)
+    
 
     def  get_nombre(self):
         return self._nombre
